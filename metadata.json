@@ -1,0 +1,6 @@
+{
+  "name": "UEB Academic Platform",
+  "description": "A comprehensive educational portal with customized views for students, tutors, parents, and faculty administrators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

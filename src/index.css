@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-primary: #002045;
+  --color-primary-container: #1a365d;
+  --color-on-primary-container: #86a0cd;
+  --color-secondary: #735c00;
+  --color-secondary-container: #fed65b;
+  --color-on-secondary-container: #745c00;
+  --color-background: #faf9fd;
+  --color-surface-container-low: #f4f3f7;
+  --color-surface-container-lowest: #ffffff;
+  --color-outline-variant: #c4c6cf;
+}
+
+body {
+  background-color: #F8FAFC;
+  font-family: 'Inter', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 1);
+}
+
+.achievement-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.achievement-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(26, 54, 93, 0.08);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 10px;
+}
